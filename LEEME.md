@@ -2,6 +2,10 @@
 
 Sitio estático (HTML + CSS + JS, sin instalar nada) con un **panel de admin** en `/admin` para que Sabri suba fotos, arme carpetas y álbumes y cambie los textos sin tocar código.
 
+- **Sitio:** https://guidoap87.github.io/portfolio-sabrina/
+- **Panel:** https://guidoap87.github.io/portfolio-sabrina/admin/
+- **Repositorio:** https://github.com/GuidoAP87/portfolio-sabrina
+
 ## Cómo está ordenado
 
 ```
@@ -17,7 +21,7 @@ herramientas/         panel en modo local y otras ayudas
 
 ## El panel (`/admin`)
 
-Se entra a `https://<dirección del sitio>/admin/` desde la compu o el celu, con una **clave de acceso** (un token de GitHub, ver abajo). La clave queda guardada en ese navegador.
+Se entra a https://guidoap87.github.io/portfolio-sabrina/admin/ desde la compu o el celu, con una **clave de acceso** (un token de GitHub, ver abajo). La clave queda guardada en ese navegador.
 
 - **Carpetas**: cada una es una "entrada" del sitio para filtrar fotos (Escenarios, Talleres, Moda…). Se crean con "+ Nueva carpeta", se renombran, se ordenan con ↑ ↓ y se borran cuando están vacías. Las carpetas vacías no se ven en el sitio.
 - **Fotos**: "Subir fotos" (o arrastrarlas) las achica solas antes de subir (2000 px la grande, 640 px la miniatura) y las deja primeras en la carpeta. Tocando una foto se le pone título, lugar y año, se la cambia de carpeta o de álbum, se la ordena y se la borra. Con el tilde se eligen varias para moverlas, ponerlas en un álbum o borrarlas juntas. En la compu, el orden también se cambia arrastrando.
@@ -45,10 +49,10 @@ python herramientas/panel_local.py
 y entrar a http://localhost:5519/admin/. Guarda directo en esta carpeta, sin clave. Sirve para probar o para ordenar sin conexión; después hay que subir los cambios a GitHub.
 
 ## Publicación (GitHub Pages)
-1. Subir esta carpeta a un repositorio de GitHub (público, para que Pages sea gratis).
-2. En el repositorio: *Settings → Pages → Source: GitHub Actions*. El archivo `.github/workflows/publicar.yml` publica el sitio en cada cambio.
-3. Completar `admin/config.js` con el usuario y el nombre del repositorio.
-4. En `index.html`, poner la dirección completa en `og:image` y `twitter:image` y agregar `og:url` (hay un comentario que lo explica): WhatsApp necesita la dirección completa para mostrar la vista previa.
+Ya está publicado: el repositorio es público (así Pages es gratis), Pages publica con GitHub Actions (`.github/workflows/publicar.yml`) en cada cambio y `admin/config.js` apunta a GuidoAP87/portfolio-sabrina.
+
+- **Si se edita algo a mano en la compu**, antes hacer `git pull`: el panel guarda directo en GitHub y la carpeta local queda atrasada.
+- **Si algún día tiene dominio propio** (por ejemplo sabrinabaroni.com.ar): configurarlo en *Settings → Pages → Custom domain* y cambiar la dirección en `og:url`, `og:image` y `twitter:image` de `index.html` (WhatsApp necesita la dirección completa para mostrar la vista previa).
 
 ## Funciones del sitio
 
