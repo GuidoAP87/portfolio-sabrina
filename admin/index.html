@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Panel · Sabrina Baroni</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2313296b'/%3E%3Ctext x='16' y='23' font-family='Impact,sans-serif' font-size='18' fill='%23fff' text-anchor='middle'%3ESB%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+  <div class="cargando" id="cargando"><span class="giro" aria-hidden="true"></span>Cargando el panel…</div>
+
+  <!-- Entrada con la clave -->
+  <section class="ingreso" id="ingreso" hidden>
+    <form class="ingreso__tarjeta" id="ingreso-form" autocomplete="off">
+      <div class="marca marca--grande"><span class="marca__sello">SB</span><span><strong>Panel de Sabri</strong><small>Fotos, carpetas y textos del sitio</small></span></div>
+      <label class="campo">
+        <span class="campo__etiqueta">Clave de acceso</span>
+        <input type="password" id="ingreso-clave" placeholder="Pegá acá tu clave" required spellcheck="false" autocapitalize="off">
+      </label>
+      <p class="ingreso__error" id="ingreso-error" role="alert"></p>
+      <button class="boton boton--primario boton--ancho" type="submit" id="ingreso-boton">Entrar</button>
+      <p class="ingreso__ayuda">La clave queda guardada en este navegador, así no hay que ponerla cada vez. Si no la tenés, pedísela a quien armó el sitio.</p>
+      <details class="ingreso__como">
+        <summary>¿Cómo se consigue la clave?</summary>
+        <ol>
+          <li>Entrá a GitHub con la cuenta dueña del sitio y abrí <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Configuración → Tokens</a>.</li>
+          <li>Ponele un nombre (por ejemplo "Panel de Sabri") y elegí la duración que quieras.</li>
+          <li>En <em>Repository access</em> elegí <em>Only select repositories</em> y marcá el repositorio del sitio.</li>
+          <li>En <em>Permissions → Contents</em> elegí <em>Read and write</em>.</li>
+          <li>Tocá <em>Generate token</em>, copiá la clave y pegala acá.</li>
+        </ol>
+      </details>
+    </form>
+  </section>
+
+  <!-- El panel -->
+  <div class="panel" id="panel" hidden>
+    <header class="barra">
+      <div class="marca"><span class="marca__sello">SB</span><span><strong>Panel de Sabri</strong><small id="barra-repo"></small></span></div>
+      <div class="barra__estado" id="estado" role="status" aria-live="polite"></div>
+      <div class="barra__acciones">
+        <a class="boton boton--sutil" id="ver-sitio" href="../" target="_blank" rel="noopener">Ver sitio <span aria-hidden="true">↗</span></a>
+        <button class="boton boton--sutil" type="button" id="salir">Salir</button>
+      </div>
+    </header>
+    <div class="cuerpo">
+      <nav class="lateral" id="lateral" aria-label="Carpetas"></nav>
+      <main class="principal" id="principal" tabindex="-1"></main>
+    </div>
+    <div class="seleccion" id="seleccion" hidden></div>
+  </div>
+
+  <!-- Editor de una foto -->
+  <div class="editor-fondo" id="editor-fondo" hidden></div>
+  <aside class="editor" id="editor" hidden aria-label="Editar foto"></aside>
+
+  <!-- Ventanas (crear, renombrar, confirmar) -->
+  <div class="modal-fondo" id="modal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-titulo"></div>
+  </div>
+
+  <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+  <input type="file" id="elegir-fotos" accept="image/jpeg,image/png,image/webp,image/heic,image/heif" multiple hidden>
+  <input type="file" id="elegir-perfil" accept="image/jpeg,image/png,image/webp,image/heic,image/heif" hidden>
+
+  <script src="config.js"></script>
+  <script src="panel.js"></script>
+</body>
+</html>

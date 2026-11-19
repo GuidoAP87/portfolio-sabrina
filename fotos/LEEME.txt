@@ -1,0 +1,3 @@
+Fotos de Sabrina Baroni: una carpeta por cada carpeta del panel, con las fotos grandes y una subcarpeta mini/ con las miniaturas.
+No hace falta tocar nada acá: las fotos se suben, se mueven y se borran desde el panel (/admin).
+El orden, los títulos y los álbumes están en datos/sitio.json.

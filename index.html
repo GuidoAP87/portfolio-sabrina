@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sabrina Baroni · Fotografía · Córdoba</title>
+  <meta name="description" content="Sabrina Baroni, fotógrafa en Córdoba. Escenarios, fotografía deportiva en Talleres, moda y catálogo, producto y contenido para redes.">
+  <meta name="theme-color" content="#0b0b0d">
+
+  <!-- Vista previa al compartir el link (WhatsApp, Instagram, Facebook, X).
+       Va con la dirección completa del sitio: si algún día tiene dominio propio,
+       cambiar https://guidoap87.github.io/portfolio-sabrina/ por el dominio en og:url, og:image y twitter:image. -->
+  <meta property="og:url" content="https://guidoap87.github.io/portfolio-sabrina/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:site_name" content="Sabrina Baroni · Fotografía">
+  <meta property="og:title" content="Sabrina Baroni · Fotografía">
+  <meta property="og:description" content="Fotos desde el campo, la popular y la plaza. Escenarios, Talleres, moda, producto y redes en Córdoba.">
+  <meta property="og:image" content="https://guidoap87.github.io/portfolio-sabrina/og-imagen.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Trapo azul y blanco con el nombre Sabrina Baroni sobre fotos de un recital, un festejo de Talleres y una producción de moda.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sabrina Baroni · Fotografía">
+  <meta name="twitter:description" content="Fotos desde el campo, la popular y la plaza.">
+  <meta name="twitter:image" content="https://guidoap87.github.io/portfolio-sabrina/og-imagen.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2313296b'/%3E%3Crect x='7' width='5' height='32' fill='%23f1ebdf'/%3E%3Crect x='20' width='5' height='32' fill='%23f1ebdf'/%3E%3Ccircle cx='16' cy='16' r='8' fill='%230b0b0d'/%3E%3Ccircle cx='16' cy='16' r='3.2' fill='%23f1ebdf'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Saira+Stencil+One&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="saltar" href="#pared">Saltar a las fotos</a>
+
+  <!-- Filtro para que las letras parezcan pintadas a mano -->
+  <svg class="filtros" aria-hidden="true" focusable="false">
+    <filter id="pintado">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="17" result="ruido"/>
+      <feDisplacementMap in="SourceGraphic" in2="ruido" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </svg>
+
+  <div class="flash" aria-hidden="true"></div>
+
+  <!-- Tablero LED de estadio -->
+  <div class="tablero" aria-hidden="true"><div class="tablero__pista" id="tablero"></div></div>
+
+  <!-- Navegación: la lista de temas pegada en el escenario -->
+  <nav class="setlist" aria-label="Secciones">
+    <button class="setlist__boton" type="button" aria-expanded="false" aria-controls="setlist-hoja">Lista de temas</button>
+    <div class="setlist__hoja" id="setlist-hoja">
+      <p class="setlist__encabezado"><span data-campo="nombre">Sabrina</span> · en vivo</p>
+      <ol>
+        <li><a href="#arranque">Arranque</a></li>
+        <li><a href="#pared">La pared</a></li>
+        <li><a href="#pantalla">Pantalla gigante</a></li>
+        <li><a href="#quien">Quién saca</a></li>
+        <li class="setlist__bis" aria-hidden="true">Bis</li>
+        <li><a href="#bis">Escribime</a></li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ============ ARRANQUE ============ -->
+  <header class="escenario" id="arranque">
+    <div class="luces" aria-hidden="true">
+      <span class="haz" style="--x:10%; --desde:-26deg; --hasta:14deg;  --dur:11s; --delay:-2s; --color:rgba(255,255,255,.55)"></span>
+      <span class="haz" style="--x:30%; --desde:18deg;  --hasta:-12deg; --dur:9s;  --delay:-5s; --color:rgba(127,178,229,.6)"></span>
+      <span class="haz" style="--x:50%; --desde:-10deg; --hasta:10deg;  --dur:13s; --delay:-1s; --color:rgba(255,255,255,.45)"></span>
+      <span class="haz" style="--x:70%; --desde:-18deg; --hasta:16deg;  --dur:10s; --delay:-7s; --color:rgba(70,105,220,.75)"></span>
+      <span class="haz" style="--x:90%; --desde:24deg;  --hasta:-14deg; --dur:12s; --delay:-3s; --color:rgba(255,255,255,.5)"></span>
+      <span class="tacho" style="--x:10%"></span><span class="tacho" style="--x:30%"></span><span class="tacho" style="--x:50%"></span><span class="tacho" style="--x:70%"></span><span class="tacho" style="--x:90%"></span>
+    </div>
+
+    <svg class="publico" id="publico" aria-hidden="true" preserveAspectRatio="xMidYMax slice"></svg>
+
+    <div class="trapo-wrap">
+      <h1 class="trapo">
+        <span class="trapo__pliegues" aria-hidden="true"></span>
+        <span class="trapo__nombre" data-campo="nombre">Sabrina</span>
+        <span class="trapo__sub"><span aria-hidden="true">★</span> Fotografía <span aria-hidden="true">·</span> <span data-campo="ciudad">Córdoba</span> <span aria-hidden="true">★</span></span>
+      </h1>
+    </div>
+
+    <p class="bajada" id="bajada">Fotos desde el <em>campo</em>, la <em>popular</em> y la <em>plaza</em>.</p>
+
+    <div class="acciones">
+      <a class="boton" href="#pared">Ver la pared</a>
+      <a class="boton boton--hueco" href="#bis">Escribime</a>
+    </div>
+
+    <a class="bajar" href="#pared" aria-hidden="true" tabindex="-1">seguí bajando ↓</a>
+  </header>
+
+  <main>
+    <!-- ============ LA PARED (galería) ============ -->
+    <section class="pared" id="pared" aria-labelledby="titulo-pared">
+      <div class="pared__pintadas" aria-hidden="true">
+        <span class="pintada pintada--aguante">Aguante</span>
+        <span class="pintada pintada--pv">PV</span>
+        <span class="pintada pintada--t">T</span>
+      </div>
+
+      <div class="pared__cabeza">
+        <h2 class="aerosol" id="titulo-pared">La pared<span class="chorreo" style="--x:6%;--h:34px" aria-hidden="true"></span><span class="chorreo" style="--x:31%;--h:58px" aria-hidden="true"></span><span class="chorreo" style="--x:64%;--h:22px" aria-hidden="true"></span><span class="chorreo" style="--x:88%;--h:46px" aria-hidden="true"></span></h2>
+        <p class="pared__intro">Mejor que decir es <span class="marcador">mostrar</span>.<span class="nota">— casi palabras del General</span></p>
+      </div>
+
+      <div class="pared__controles">
+        <div class="entradas" id="entradas" role="group" aria-label="Filtrar fotos por sector"></div>
+        <button class="boton-chico boton-chico--oscuro" type="button" id="presentacion-pared"><span aria-hidden="true">▶</span> Ver en presentación</button>
+      </div>
+
+      <!-- Álbumes por evento: cada uno tiene su propio link (#album/…) -->
+      <div class="albumes" id="albumes" hidden>
+        <p class="albumes__titulo">Álbumes</p>
+        <div class="albumes__lista" id="albumes-lista"></div>
+      </div>
+
+      <div class="album-cabecera" id="album-cabecera" hidden>
+        <div>
+          <p class="album-cabecera__ante">Álbum</p>
+          <h3 class="album-cabecera__titulo" id="album-titulo"></h3>
+          <p class="album-cabecera__texto" id="album-texto"></p>
+        </div>
+        <div class="album-cabecera__acciones">
+          <button class="boton-chico" type="button" id="album-compartir">Compartir álbum</button>
+          <button class="boton-chico boton-chico--hueco" type="button" id="album-salir">Ver todas las fotos</button>
+        </div>
+      </div>
+
+      <div class="grilla" id="grilla"></div>
+    </section>
+
+    <!-- ============ PANTALLA GIGANTE (videos) ============ -->
+    <section class="pantalla" id="pantalla" aria-labelledby="titulo-pantalla">
+      <div class="pantalla__cabeza">
+        <h2 class="pantalla__titulo" id="titulo-pantalla">Pantalla gigante</h2>
+        <p class="pantalla__bajada">Lo que no entra en una foto. <span>deslizá para ver más →</span></p>
+      </div>
+      <div class="pantalla__marco">
+        <div class="pantalla__tira" id="videos" role="list"></div>
+      </div>
+    </section>
+
+    <!-- ============ QUIÉN SACA ============ -->
+    <section class="quien" id="quien" aria-labelledby="titulo-quien">
+      <div class="quien__grilla">
+        <div class="colgante" id="colgante">
+          <div class="colgante__mov">
+            <span class="colgante__cinta" aria-hidden="true"></span>
+            <span class="colgante__gancho" aria-hidden="true"></span>
+            <article class="credencial" aria-label="Credencial de prensa">
+              <span class="credencial__agujero" aria-hidden="true"></span>
+              <header class="credencial__cabeza">
+                <span class="credencial__tipo">Acreditación</span>
+                <strong>Prensa</strong>
+              </header>
+              <div class="credencial__foto" id="credencial-foto"><span>S</span></div>
+              <p class="credencial__nombre" data-campo="nombreCompleto">Sabrina</p>
+              <p class="credencial__rol">Fotografía · <span data-campo="ciudad">Córdoba</span></p>
+              <p class="credencial__acceso-titulo">Acceso total</p>
+              <ul class="credencial__acceso">
+                <li>Campo</li><li>Popular</li><li>Plaza</li>
+              </ul>
+              <div class="credencial__pie">
+                <svg class="credencial__barras" id="barras" viewBox="0 0 120 30" preserveAspectRatio="none" aria-hidden="true"></svg>
+                <span>N° 1913</span>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <article class="fanzine revelar">
+          <span class="cinta cinta--izq" aria-hidden="true"></span>
+          <span class="cinta cinta--der" aria-hidden="true"></span>
+          <p class="fanzine__numero">Fanzine N° 1 · fotocopiado</p>
+          <h2 id="titulo-quien">Quién saca <span class="recorte">las fotos</span></h2>
+          <div class="fanzine__bio" id="bio"></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ BIS (contacto) ============ -->
+    <section class="bis" id="bis" aria-labelledby="titulo-bis">
+      <p class="bis__gigante" aria-hidden="true">Bis</p>
+      <div class="bis__afiche revelar">
+        <span class="cinta cinta--izq" aria-hidden="true"></span>
+        <span class="cinta cinta--der" aria-hidden="true"></span>
+        <p class="bis__antetitulo">Bis · el último tema</p>
+        <h2 id="titulo-bis">¿Tenés una fecha?</h2>
+        <p class="bis__texto">Recitales, deporte, moda, producto y contenido para redes. Completá la entrada y me llega todo armado.</p>
+
+        <!-- Formulario "Armá tu fecha": arma el mensaje y lo abre por el canal que haya en datos/sitio.json
+             (WhatsApp, mail o Instagram). No guarda nada. -->
+        <div class="pedido-sombra">
+          <form class="pedido" id="pedido" novalidate aria-labelledby="pedido-titulo">
+            <div class="pedido__cuerpo">
+              <p class="pedido__encabezado" id="pedido-titulo"><span>Armá tu fecha</span><span>Entrada · Solicitud</span></p>
+
+              <fieldset class="pedido__tipos">
+                <legend>¿Qué necesitás? <abbr title="obligatorio">*</abbr></legend>
+                <div class="pedido__opciones" id="pedido-tipos"></div>
+              </fieldset>
+
+              <div class="pedido__fila">
+                <label class="pedido__campo">
+                  <span>Fecha</span>
+                  <input type="date" name="fecha" id="pedido-fecha">
+                </label>
+                <label class="pedido__campo">
+                  <span>Lugar</span>
+                  <input type="text" name="lugar" maxlength="80" placeholder="Ej: Estadio Kempes">
+                </label>
+              </div>
+
+              <label class="pedido__campo">
+                <span>A nombre de <abbr title="obligatorio">*</abbr></span>
+                <input type="text" name="nombre" id="pedido-nombre" maxlength="80" autocomplete="name" placeholder="Tu nombre, tu banda, tu marca o tu club">
+              </label>
+
+              <label class="pedido__campo">
+                <span>Contame la idea</span>
+                <textarea name="idea" rows="3" maxlength="600" placeholder="Para qué son las fotos, cuántas necesitás, si también va video…"></textarea>
+              </label>
+
+              <p class="pedido__aviso" id="pedido-aviso" role="status" aria-live="polite"></p>
+            </div>
+
+            <div class="pedido__talon">
+              <span class="pedido__talon-texto">Admite<br>una fecha</span>
+              <button type="submit" class="pedido__enviar" id="pedido-enviar">Mandar <span aria-hidden="true">→</span></button>
+              <svg class="pedido__barras" id="pedido-barras" viewBox="0 0 120 26" preserveAspectRatio="none" aria-hidden="true"></svg>
+            </div>
+          </form>
+        </div>
+
+        <p class="contacto__titulo" id="contacto-titulo">O escribime directo</p>
+        <div class="contacto" id="contacto"></div>
+        <p class="bis__nota">de local o de visitante, voy igual</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p><strong data-campo="nombreCompleto">Sabrina</strong> · Fotografía · <span data-campo="ciudad">Córdoba</span></p>
+    <p class="pie__chico">Hecho a pulmón · © <span id="anio">2026</span></p>
+  </footer>
+
+  <!-- ============ VISOR (foto en grande) ============ -->
+  <div class="visor" id="visor" role="dialog" aria-modal="true" aria-labelledby="visor-titulo" hidden>
+    <span class="visor__progreso" id="visor-progreso" aria-hidden="true"></span>
+    <div class="visor__barra">
+      <span class="visor__contador" id="visor-contador">Cuadro 01 / 01</span>
+      <div class="visor__acciones">
+        <button class="visor__boton" type="button" id="visor-presentacion" aria-pressed="false"><span aria-hidden="true">▶</span> Pasar solas</button>
+        <button class="visor__boton" type="button" id="visor-compartir">Compartir</button>
+        <button class="visor__boton visor__cerrar" type="button" id="visor-cerrar">Cerrar <span aria-hidden="true">✕</span></button>
+      </div>
+    </div>
+    <div class="visor__escena" id="visor-escena">
+      <button class="visor__flecha visor__flecha--ant" type="button" id="visor-ant" aria-label="Foto anterior">‹</button>
+      <figure class="visor__marco">
+        <div class="visor__foto" id="visor-foto"></div>
+        <figcaption class="visor__texto"><strong id="visor-titulo"></strong><span id="visor-datos"></span></figcaption>
+      </figure>
+      <button class="visor__flecha visor__flecha--sig" type="button" id="visor-sig" aria-label="Foto siguiente">›</button>
+    </div>
+    <div class="visor__tira" id="visor-tira" role="group" aria-label="Tira de negativos"></div>
+  </div>
+
+  <div class="aviso-flotante" id="aviso-flotante" role="status" aria-live="polite"></div>
+
+  <!-- datos.js lee datos/sitio.json (lo que edita el panel /admin) y después carga app.js -->
+  <script src="js/datos.js"></script>
+</body>
+</html>

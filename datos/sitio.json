@@ -1,0 +1,577 @@
+{
+  "version": 1,
+  "nombre": "Sabrina",
+  "nombreCompleto": "Sabrina Baroni",
+  "ciudad": "Córdoba",
+  "bajada": "Fotos desde el *campo*, la *popular* y la *plaza*.",
+  "tablero": [
+    "Agenda abierta",
+    "Escribime"
+  ],
+  "bio": [
+    "Soy Sabri, fotógrafa y creadora audiovisual en Córdoba. Trabajo con artistas, marcas y proyectos que quieren contar algo a través de imágenes.",
+    "Hago fotografía de recitales, deporte y eventos, y produzco fotos y videos para redes sociales, desde la idea hasta la edición.",
+    "Hace más de ocho años que trabajo en comunicación digital, y esa experiencia me ayuda a pensar cada pieza según dónde se va a ver y a quién le queremos hablar."
+  ],
+  "contacto": {
+    "whatsapp": "",
+    "instagram": "",
+    "email": "",
+    "portfolioAnterior": ""
+  },
+  "tiposDePedido": [
+    "Recital / show",
+    "Deporte",
+    "Moda / catálogo",
+    "Producto",
+    "Contenido para redes",
+    "Otra cosa"
+  ],
+  "fotoPerfil": "",
+  "firma": "© Sabrina Baroni",
+  "estadisticas": {
+    "goatcounter": ""
+  },
+  "carpetas": [
+    {
+      "id": "escenarios",
+      "nombre": "Escenarios",
+      "sector": "Campo",
+      "proximo": 11
+    },
+    {
+      "id": "talleres",
+      "nombre": "Talleres",
+      "sector": "Popular",
+      "proximo": 11
+    },
+    {
+      "id": "moda",
+      "nombre": "Moda",
+      "sector": "Camarín",
+      "proximo": 9
+    },
+    {
+      "id": "producto",
+      "nombre": "Producto",
+      "sector": "Vidriera",
+      "proximo": 6
+    },
+    {
+      "id": "redes",
+      "nombre": "Redes",
+      "sector": "Pantalla",
+      "proximo": 8
+    }
+  ],
+  "albumes": [
+    {
+      "id": "talleres-masculino",
+      "carpeta": "talleres",
+      "titulo": "Talleres · Masculino",
+      "fecha": "",
+      "texto": "Fotografía deportiva en el Club Atlético Talleres.",
+      "portada": ""
+    },
+    {
+      "id": "talleres-femenino",
+      "carpeta": "talleres",
+      "titulo": "Talleres · Femenino",
+      "fecha": "",
+      "texto": "Fotografía deportiva en el Club Atlético Talleres.",
+      "portada": ""
+    }
+  ],
+  "fotos": [
+    {
+      "archivo": "fotos/escenarios/01.jpg",
+      "mini": "fotos/escenarios/mini/01.jpg",
+      "carpeta": "escenarios",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1024,
+      "alto": 1535
+    },
+    {
+      "archivo": "fotos/escenarios/02.jpg",
+      "mini": "fotos/escenarios/mini/02.jpg",
+      "carpeta": "escenarios",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1024,
+      "alto": 1535
+    },
+    {
+      "archivo": "fotos/escenarios/03.jpg",
+      "mini": "fotos/escenarios/mini/03.jpg",
+      "carpeta": "escenarios",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1068,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/escenarios/04.jpg",
+      "mini": "fotos/escenarios/mini/04.jpg",
+      "carpeta": "escenarios",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1068,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/escenarios/05.jpg",
+      "mini": "fotos/escenarios/mini/05.jpg",
+      "carpeta": "escenarios",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1068,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/escenarios/06.jpg",
+      "mini": "fotos/escenarios/mini/06.jpg",
+      "carpeta": "escenarios",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1068,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/escenarios/07.jpg",
+      "mini": "fotos/escenarios/mini/07.jpg",
+      "carpeta": "escenarios",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1024,
+      "alto": 1535
+    },
+    {
+      "archivo": "fotos/escenarios/08.jpg",
+      "mini": "fotos/escenarios/mini/08.jpg",
+      "carpeta": "escenarios",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1067
+    },
+    {
+      "archivo": "fotos/escenarios/09.jpg",
+      "mini": "fotos/escenarios/mini/09.jpg",
+      "carpeta": "escenarios",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1067
+    },
+    {
+      "archivo": "fotos/escenarios/10.jpg",
+      "mini": "fotos/escenarios/mini/10.jpg",
+      "carpeta": "escenarios",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1067
+    },
+    {
+      "archivo": "fotos/talleres/01.jpg",
+      "mini": "fotos/talleres/mini/01.jpg",
+      "carpeta": "talleres",
+      "album": "talleres-masculino",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1068
+    },
+    {
+      "archivo": "fotos/talleres/02.jpg",
+      "mini": "fotos/talleres/mini/02.jpg",
+      "carpeta": "talleres",
+      "album": "talleres-masculino",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1068
+    },
+    {
+      "archivo": "fotos/talleres/03.jpg",
+      "mini": "fotos/talleres/mini/03.jpg",
+      "carpeta": "talleres",
+      "album": "talleres-masculino",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1068
+    },
+    {
+      "archivo": "fotos/talleres/04.jpg",
+      "mini": "fotos/talleres/mini/04.jpg",
+      "carpeta": "talleres",
+      "album": "talleres-masculino",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1068,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/talleres/05.jpg",
+      "mini": "fotos/talleres/mini/05.jpg",
+      "carpeta": "talleres",
+      "album": "talleres-masculino",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1068
+    },
+    {
+      "archivo": "fotos/talleres/06.jpg",
+      "mini": "fotos/talleres/mini/06.jpg",
+      "carpeta": "talleres",
+      "album": "talleres-masculino",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1068,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/talleres/07.jpg",
+      "mini": "fotos/talleres/mini/07.jpg",
+      "carpeta": "talleres",
+      "album": "talleres-masculino",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1068
+    },
+    {
+      "archivo": "fotos/talleres/08.jpg",
+      "mini": "fotos/talleres/mini/08.jpg",
+      "carpeta": "talleres",
+      "album": "talleres-femenino",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1068
+    },
+    {
+      "archivo": "fotos/talleres/09.jpg",
+      "mini": "fotos/talleres/mini/09.jpg",
+      "carpeta": "talleres",
+      "album": "talleres-femenino",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1068
+    },
+    {
+      "archivo": "fotos/talleres/10.jpg",
+      "mini": "fotos/talleres/mini/10.jpg",
+      "carpeta": "talleres",
+      "album": "talleres-femenino",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1067
+    },
+    {
+      "archivo": "fotos/moda/01.jpg",
+      "mini": "fotos/moda/mini/01.jpg",
+      "carpeta": "moda",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1066,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/moda/02.jpg",
+      "mini": "fotos/moda/mini/02.jpg",
+      "carpeta": "moda",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1066,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/moda/03.jpg",
+      "mini": "fotos/moda/mini/03.jpg",
+      "carpeta": "moda",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1066,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/moda/04.jpg",
+      "mini": "fotos/moda/mini/04.jpg",
+      "carpeta": "moda",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1066,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/moda/05.jpg",
+      "mini": "fotos/moda/mini/05.jpg",
+      "carpeta": "moda",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1067
+    },
+    {
+      "archivo": "fotos/moda/06.jpg",
+      "mini": "fotos/moda/mini/06.jpg",
+      "carpeta": "moda",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1067,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/moda/07.jpg",
+      "mini": "fotos/moda/mini/07.jpg",
+      "carpeta": "moda",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1067,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/moda/08.jpg",
+      "mini": "fotos/moda/mini/08.jpg",
+      "carpeta": "moda",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1067,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/producto/01.jpg",
+      "mini": "fotos/producto/mini/01.jpg",
+      "carpeta": "producto",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1067
+    },
+    {
+      "archivo": "fotos/producto/02.jpg",
+      "mini": "fotos/producto/mini/02.jpg",
+      "carpeta": "producto",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1067,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/producto/03.jpg",
+      "mini": "fotos/producto/mini/03.jpg",
+      "carpeta": "producto",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1067
+    },
+    {
+      "archivo": "fotos/producto/04.jpg",
+      "mini": "fotos/producto/mini/04.jpg",
+      "carpeta": "producto",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1067,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/producto/05.jpg",
+      "mini": "fotos/producto/mini/05.jpg",
+      "carpeta": "producto",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1067,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/redes/01.jpg",
+      "mini": "fotos/redes/mini/01.jpg",
+      "carpeta": "redes",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1068,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/redes/02.jpg",
+      "mini": "fotos/redes/mini/02.jpg",
+      "carpeta": "redes",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 900,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/redes/03.jpg",
+      "mini": "fotos/redes/mini/03.jpg",
+      "carpeta": "redes",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1068
+    },
+    {
+      "archivo": "fotos/redes/04.jpg",
+      "mini": "fotos/redes/mini/04.jpg",
+      "carpeta": "redes",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1068
+    },
+    {
+      "archivo": "fotos/redes/05.jpg",
+      "mini": "fotos/redes/mini/05.jpg",
+      "carpeta": "redes",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1068,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/redes/06.jpg",
+      "mini": "fotos/redes/mini/06.jpg",
+      "carpeta": "redes",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1068,
+      "alto": 1600
+    },
+    {
+      "archivo": "fotos/redes/07.jpg",
+      "mini": "fotos/redes/mini/07.jpg",
+      "carpeta": "redes",
+      "album": "",
+      "titulo": "",
+      "lugar": "",
+      "anio": "",
+      "ancho": 1600,
+      "alto": 1067
+    }
+  ],
+  "videos": [
+    {
+      "id": "W2ef-RX98BD",
+      "formato": "vertical"
+    },
+    {
+      "id": "KB9k-AiZgkk",
+      "formato": "vertical"
+    },
+    {
+      "id": "FWS7jCjSk2q",
+      "formato": "vertical"
+    },
+    {
+      "id": "2h_ZTKE38Ti",
+      "formato": "vertical"
+    },
+    {
+      "id": "-tUpSE8XqdQ",
+      "formato": "vertical"
+    },
+    {
+      "id": "DaW6yyIIb_y",
+      "formato": "vertical"
+    },
+    {
+      "id": "LyoDVKbRJ4f",
+      "formato": "vertical"
+    },
+    {
+      "id": "QfyakB6ZoFB",
+      "formato": "vertical"
+    },
+    {
+      "id": "5VYPnCHCJSL",
+      "formato": "vertical"
+    },
+    {
+      "id": "S2SzohZG4Dz",
+      "formato": "vertical"
+    },
+    {
+      "id": "B9X56SnHjXF",
+      "formato": "vertical"
+    },
+    {
+      "id": "24_DmuaoFH8",
+      "formato": "horizontal"
+    }
+  ]
+}
